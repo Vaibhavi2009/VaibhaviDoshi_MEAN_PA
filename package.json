@@ -1,0 +1,35 @@
+{
+  "name": "vaibhavidoshi-mean-pa",
+  "version": "1.0.0",
+  "description": "Performance Assessment: The MEAN Stack (MVC with Express + EJS).",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon --legacy-watch app.js"
+  },
+  "keywords": [
+    "MEAN",
+    "Express",
+    "EJS",
+    "MVC",
+    "Performance Assessment"
+  ],
+  "author": "Vaibhavi Doshi",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "nodemonConfig": {
+    "watch": ["app.js", "app/"],
+    "ext": "js,ejs",
+    "ignore": ["node_modules/"]
+  }
+}
